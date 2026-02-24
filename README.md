@@ -1,9 +1,6 @@
-# 📚 LiterAlura - Catálogo de Libros
+# 📚 - Catálogo de Libros
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-green?style=for-the-badge&logo=springboot)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?style=for-the-badge&logo=postgresql)
-![Maven](https://img.shields.io/badge/Maven-4.0-red?style=for-the-badge&logo=apachemaven)
+
 
 ## 📖 Descripción
 
@@ -40,38 +37,12 @@ El sistema ofrece las siguientes opciones de interacción via consola:
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
-literalura/
-├── src/
-│   └── main/
-│       ├── java/com/aluracursos/literalura/
-│       │   ├── model/
-│       │   │   ├── Autor.java
-│       │   │   ├── Libro.java
-│       │   │   ├── DatosAutor.java
-│       │   │   ├── DatosLibro.java
-│       │   │   └── DatosRespuestaAPI.java
-│       │   ├── principal/
-│       │   │   └── Principal.java
-│       │   ├── repository/
-│       │   │   ├── AutorRepository.java
-│       │   │   └── LibroRepository.java
-│       │   ├── service/
-│       │   │   ├── ConsumoAPI.java
-│       │   │   └── ConvierteDatos.java
-│       │   └── LiteraluraApplication.java
-│       └── resources/
-│           └── application.properties
-└── pom.xml
-```
-
 ---
 
 ## ⚙️ Configuración y uso
 
-### Requisitos previos
+### Requisitos
+
 
 - Java 17 o superior
 - PostgreSQL 16
